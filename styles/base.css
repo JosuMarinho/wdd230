@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    background-color: #3776bc;
+    color: #fff;
+    padding: 10px; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+.card {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10;
+    text-align: center;
+    
+}
+nav {
+    text-align: center;
+    background-color: #3776bc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div {
+    display: flex;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-bottom: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #001f3f;
+    color: #fff; 
+    padding: 10px;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; 
+    padding: 20px;
+    background-color: #001f3f;
+}
+
+#lastModified {
+    font-style: italic;
+}
