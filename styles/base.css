@@ -1,4 +1,6 @@
 @import url('https://fonts.google.com/specimen/Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 body {
     font-family: 'Roboto', sans-serif; 
@@ -91,7 +93,7 @@ header img {
 
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #fff; 
     padding: 20px;
     background-color: #001f3f;
@@ -99,4 +101,31 @@ footer {
 
 #lastModified {
     font-style: italic;
+}
+
+nav {
+    text-align: center;
+    background-color: #3776bc;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    padding: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
