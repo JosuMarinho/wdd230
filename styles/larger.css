@@ -1,0 +1,27 @@
+nav {
+    margin-top: 20px;
+}
+
+ul.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Presentación vertical en pantallas pequeñas */
+}
+
+ul.nav-list li {
+    margin-bottom: 30px; /* Espacio entre elementos en pantallas pequeñas */
+}
+
+@media (min-width: 768px) {
+    /* Cambios de diseño para pantallas más grandes */
+    ul.nav-list {
+        flex-direction: row; /* Cambia a presentación horizontal */
+    }
+
+    ul.nav-list li {
+        margin-right: 20px; /* Espacio entre elementos en pantallas más grandes */
+        margin-bottom: 0;   /* Sin espacio entre elementos en pantallas más grandes */
+    }
+}
