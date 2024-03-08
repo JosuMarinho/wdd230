@@ -16,17 +16,17 @@ ul.nav-list li {
 
 @media (min-width: 768px) {
 
-    ul.nav-list {
+ul.nav-list {
         flex-direction: row; 
     }
 
-    ul.nav-list li {
+ul.nav-list li {
         margin-right: 20px; 
         margin-bottom: 0;   
     }
 }
 
-    .main-grind-container {
+.main-grind-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;

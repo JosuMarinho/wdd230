@@ -3,9 +3,11 @@ body {
 }
 
 header, main,footer {
-  max-width: 640px; margin: Irem auto; border: 1px solid #bbb;
+  max-width: 640px; 
+  margin: Irem auto; 
+  border: 1px solid #bbb;
   padding: 1rem;
-background-color: #e6f2ff;
+  background-color: #e6f2ff;
 }
 
 main {
