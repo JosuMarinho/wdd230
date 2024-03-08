@@ -1,5 +1,10 @@
-function lastedit () {
-    var latestDate = new Date(document.lastModified);
-    document. getElementById ("placeholder"). innerHTML = late
-}
+let oLastModif = new Date(document.lastModified);
+document.querySelector("#lastModified").textContent = oLastModif;
+
+const options = {
+    year: "numeric"
+};
+document.querySelector("#yearDate").innerHTML =  new Date().toLocaleDateString("en-US", options);
+
+
     
