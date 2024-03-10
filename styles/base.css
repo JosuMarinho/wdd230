@@ -7,6 +7,8 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    
+    
 }
 
 main {
@@ -16,7 +18,7 @@ main {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 }
 
 h1, h2 {
@@ -31,18 +33,17 @@ h2 {
     box-sizing: border-box;
 }
 
-.card {
-    display: grid;
-    grid-gap: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+header {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #001f3f;
+    color: #fff;
+    padding: 10px;
 }
 
-p {
-    margin: 10px; 
-    text-align: center;
+header img {
+    max-width: 100px;
+    border-radius: 50%;
 }
 
 nav {
@@ -79,18 +80,18 @@ nav a:hover {
 nav .active {
     background-color: rgba(150,150,150,0.8);
 }
-
-header {
-    text-align: center;
-    margin-bottom: 0px;
-    background-color: #001f3f;
-    color: #fff;
-    padding: 10px;
+.card {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-header img {
-    max-width: 100px;
-    border-radius: 50%;
+p {
+    margin: 10px; 
+    text-align: center;
 }
 
 footer {
