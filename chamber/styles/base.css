@@ -1,19 +1,22 @@
 body {
     margin: 0;
   }     
+
   .hero {
-      display: flex;
-      flex-direction: column;
-      background-image: url("images/hero-img-home.png");
-      height: 100vh;
-      align-self: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      align-items: center;
-      justify-content: center;
-  }
-        
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                      url("https://turismocelaya.com/wp-content/uploads/2020/01/81253150_3329644757062194_3581735315905183744_n.jpg");
+    background-position: bottom;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+
   .text {
       font-size: 1.4rem;
       text-align: center;
