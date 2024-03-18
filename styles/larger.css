@@ -33,3 +33,16 @@ ul.nav-list li {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
     }
+@media only screen and (min-width: 38rem) {
+   
+#myButton {
+    display: none;
+}
+ul.menuLinks, ul.menuLinks.open {
+    display: flex;
+    justify-self: flex-end;
+}
+ul.menuLinks a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+}

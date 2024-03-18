@@ -82,8 +82,12 @@ nav .active {
 }
 
 #myButton::before {
-    content: "";
+    content: "☰";
 }
+
+#myButton.open::before {
+    content: 'Ｘ';
+  }
 
 #myButton {
     font-size: 2rem;
