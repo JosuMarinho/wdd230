@@ -80,6 +80,47 @@ nav a:hover {
 nav .active {
     background-color: rgba(50,120,200,0.8);
 }
+
+#myButton::before {
+    content: "";
+}
+
+#myButton {
+    font-size: 2rem;
+    background-color: #001f3f;
+    color: #fff;
+    position: absolute;
+    top: 13.5rem;
+    left: 1.5rem;
+    border: none;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    text-align: left;
+    padding: 0;   
+}
+
+ul.nav-list li a{
+  
+    display: block;
+    padding: .75rem 2vw;
+    color:#fff;
+    text-decoration: none;
+}
+li.current-menu-item a {
+    background-color: #3776bc;
+    color: #fff;
+}
+
+ul.nav-list {
+    display: none;
+    list-style-type: none;
+}
+
+ul.nav-list.open {
+    display: block; 
+}
+
 .card {
     display: grid;
     grid-gap: 20px;
