@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #edf2f4;
+  background-color: #fff;
   color: #2b2d42;
   margin: 0;
   padding: 0;
@@ -15,8 +15,8 @@ header {
   justify-content: center;
   text-align: center;
   margin-bottom: 0px;
-  background-color: #001f3f;
-  color: #fff;
+  background-color: #2b2d42;
+  color: #edf2f4;
   padding: 10px;
 }
 
@@ -30,31 +30,33 @@ header img {
   margin-right: 20px;
 }
 nav {
-  max-width: 700px;
-  margin: 1rem auto;
+  background-color: edf2f4;
+  max-width: 800px;
+  margin: auto; 
   display: flex; /* Establece el contenedor como flexbox */
   justify-content: center; /* Centra horizontalmente los elementos */
   
 }
 nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: space-around;
-  flex-direction: column;
-  align-items: none;
+  list-style-type: none; 
+  display: flex; 
+  flex-direction: row;
+  flex-direction: column;  
+  align-items: center; 
   padding: 0;
 }
 
 nav li {
-  margin-bottom: 1px;
+  margin-bottom: 10px; /
 }
 
 nav a {
-  display: block;
-  text-decoration: none;
-  color: #000;
+  display: block; /* Hace que el enlace ocupe todo el ancho del contenedor */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: #000; /* Establece el color del texto */
   font-weight: bold;
-  padding: 10px; 
+  padding: 10px; /* Añade un espacio alrededor del texto */
+
 }
 
 nav a:hover {
@@ -73,7 +75,7 @@ main {
   padding: 20px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-gap: 2rem;
 }
 
