@@ -53,19 +53,18 @@ nav li {
 nav a {
   display: block; /* Hace que el enlace ocupe todo el ancho del contenedor */
   text-decoration: none; /* Quita el subrayado del enlace */
-  color: #000; /* Establece el color del texto */
+  color: #2b2d42; /* Establece el color del texto */
   font-weight: bold;
   padding: 10px; /* Añade un espacio alrededor del texto */
 
 }
 
 nav a:hover {
-  background-color: rgba(55, 118, 188, 0.5);
-
+  background-color: rgba(141, 153, 174, 0.5);
 }
 
 nav .active {
-  background-color: rgba(50,120,200,0.8);
+  background-color: rgba(141, 153, 174,0.8);
 }
 
 
@@ -77,6 +76,36 @@ main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 2rem;
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-content {
+  background-color: #2b2d42;
+  color: #edf2f4;
+  width: 80%;
+  text-align: center; 
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #fedc9781;
+  border-style: outset;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 footer {
