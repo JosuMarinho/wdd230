@@ -30,7 +30,7 @@ header img {
   margin-right: 20px;
 }
 nav {
-  background-color: #edf2f4;
+  background-color: #ffffff;
   max-width: 800px;
   margin: auto; 
   display: flex; /* Establece el contenedor como flexbox */
@@ -60,11 +60,11 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(141, 153, 174, 0.5);
+  background-color: rgba(141, 153, 174, 0.8);
 }
 
 nav .active {
-  background-color: rgba(141, 153, 174,0.8);
+  background-color: rgba(217, 4, 41,0.4);
 }
 
 #myButton::before {
@@ -124,7 +124,7 @@ main {
 }
 
 section {
-  background-color: #fedc9781;
+  background-color: #edf2f4;
   border-style: outset;
   margin: 1rem;
   padding: 1rem;
