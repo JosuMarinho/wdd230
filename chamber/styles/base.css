@@ -60,11 +60,11 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(141, 153, 174, 0.8);
+  background-color: rgba(141, 153, 174, 0.4);
 }
 
 nav .active {
-  background-color: rgba(217, 4, 41,0.4);
+  background-color: rgba(159, 192, 186,0.8);
 }
 
 #myButton::before {
