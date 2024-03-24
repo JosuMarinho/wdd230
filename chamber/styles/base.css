@@ -80,14 +80,14 @@ nav .active {
   background-color: #FFFFFF;
   color: #D90429;
   position: absolute;
-  top: 5.rem;
+  top: 5rem;
   left: 1.5rem;
   border: none;
   cursor: pointer;
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
   text-align: left;
-  padding: 5;   
+  padding: 0;   
 }
 
 main {

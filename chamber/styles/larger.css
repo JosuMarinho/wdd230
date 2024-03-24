@@ -16,6 +16,7 @@ ul.nav-list li {
 
 @media (min-width: 768px) {
 
+.card { grid-row: 3/3;}
 
 ul.nav-list {
         flex-direction: row; 
