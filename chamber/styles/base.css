@@ -30,7 +30,7 @@ header img {
   margin-right: 20px;
 }
 nav {
-  background-color: edf2f4;
+  background-color: #edf2f4;
   max-width: 800px;
   margin: auto; 
   display: flex; /* Establece el contenedor como flexbox */
@@ -47,7 +47,7 @@ nav ul {
 }
 
 nav li {
-  margin-bottom: 10px; /
+  margin-bottom: 10px; 
 }
 
 nav a {
@@ -76,18 +76,18 @@ nav .active {
 }
 
 #myButton {
-  font-size: 1.5rem;
-  background-color: #001f3f;
+  font-size: 1.3rem;
+  background-color: #FFFFFF;
   color: #D90429;
   position: absolute;
-  top: 4.5rem;
+  top: 5.rem;
   left: 1.5rem;
   border: none;
   cursor: pointer;
   width: .5rem;
   height: .5rem;
   text-align: left;
-  padding: 0;   
+  padding: 5;   
 }
 
 main {
