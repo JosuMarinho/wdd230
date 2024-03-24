@@ -76,11 +76,11 @@ nav .active {
 }
 
 #myButton {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #001f3f;
   color: #D90429;
   position: absolute;
-  top: 12.7rem;
+  top: 4.5rem;
   left: 1.5rem;
   border: none;
   cursor: pointer;
@@ -136,4 +136,8 @@ footer {
   color: #fff;
   padding: 20px;
   background-color: #001f3f;
+}
+
+nav ul.open {
+  display: flex; /* Muestra el menú cuando está abierto */
 }
