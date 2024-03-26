@@ -18,6 +18,7 @@ ul.nav-list li {
 .card { grid-row: 3/3;}
 
 ul.nav-list {
+        display: flex;
         flex-direction: row; 
     }
 
