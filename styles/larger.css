@@ -31,7 +31,7 @@ ul.nav-list li {
 .main-grind-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 20px;
+        gap: 10px;
     }
 @media only screen and (min-width: 38rem) {
    

@@ -92,13 +92,13 @@ nav .active {
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 2rem;
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor */
+  padding: 20px; /* Espacio interior */
+  box-sizing: border-box; /* Incluir padding en el ancho máximo */
+  display: flex; /* Usar flexbox para controlar la disposición */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+  justify-content: space-between; /* Distribuir uniformemente los elementos a lo largo del eje principal */
 }
 
 .hero {
@@ -127,9 +127,11 @@ main {
 
 section {
   background-color: #edf2f4;
-  border-style: outset;
-  margin: 1rem;
-  padding: 1rem;
+  border-style: outset; 
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 footer {

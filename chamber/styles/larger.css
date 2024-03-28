@@ -28,6 +28,20 @@ ul.nav-list li {
     }
 }
 
+@media (min-width: 768px) {
+    main {
+      display: grid; /* Cambiar a layout de grid en pantallas más anchas */
+      grid-template-columns: 2fr 1fr; /* Definir la distribución de las columnas */
+      grid-gap: 60px; /* Espacio entre las columnas */
+    }
+  
+    section {
+      margin-bottom: 10px; /* Eliminar espacio entre las secciones en layout de grid */
+    }
+  }
+
+
+
 @media only screen and (min-width: 38rem) 
 
 {   
