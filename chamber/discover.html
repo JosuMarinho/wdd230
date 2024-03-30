@@ -25,7 +25,7 @@
     <nav>
         <ul class="nav-list">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="discover">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="directory">Directory</a></li>
             <li><a href="join" target="_blank">Join</a></li>
         </ul>
@@ -38,17 +38,26 @@
         </picture>
     </div>
     
-<div class="container">
-    <div class="sidebar">
-        <!-- Contenido de la barra lateral (sidebar) con mensajes de localStorage -->
-    </div>
     <main>
+       <section class="sidebar">
+        <div class="container">
+            <div class="sidebar">
+                <!-- Contenido de la barra lateral (sidebar) con mensajes de localStorage -->
+            </div>
+        </div>
+      </section>
         <!-- Área principal (main) con imágenes locales y carga perezosa -->
         <div class="image-container">
             <!-- Imágenes locales con subtítulos -->
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339">
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339"> 
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339">
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339">
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339">
+            <img src="images/discover1.png" alt="CelayaCityBall" width="487" height="339">
         </div>
 
-</main>
+    </main>
 
      <footer>
         <div class="social">
@@ -67,5 +76,7 @@
      </footer>
       <script src="scripts/getDates.js"></script>
       <script src="scripts/hamburger.js"></script>
+        <script src="scripts/lazyload.js"></script>
+        <script src="scripts/localStorage.js"></script>
    </body>
    </html>
