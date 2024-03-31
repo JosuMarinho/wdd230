@@ -174,6 +174,11 @@ aside section {
   width: auto;
 }
 
+aside .calendar {
+ text-align: center;
+ width: 250px;
+}
+
 .image-container {
   /* Estilos para contener las imágenes locales */
 display: grid;
@@ -184,5 +189,13 @@ border-image: 10px;
 .image-container img {
   margin-bottom: 20px; /* Espacio entre las imágenes verticalmente */
 }
+ol {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(7,1fr)
+}
 
+.first-day {
+  grid-column-start: 5;
+}
 
