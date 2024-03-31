@@ -45,4 +45,12 @@ ul.nav-list, ul.nav-list.open {
 ul.nav-list a:hover {
     background-color: rgba(55, 118, 188, 0.5);
 }
+.map {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
 }

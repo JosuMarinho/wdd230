@@ -201,7 +201,14 @@ section.hero{
 	font-size: 1rem;
 	font-family:"Montserrat", serif;
 }
-section.map {
-    max-width: 670px;
-    margin: 0 auto;
-}
+.map {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: auto;
+  }
