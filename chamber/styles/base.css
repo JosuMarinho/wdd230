@@ -198,4 +198,20 @@ ol {
 .first-day {
   grid-column-start: 5;
 }
+img{
+  background: #000;
+  animation: fade 10s;
+}
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  
+}
+img.rocorn {
+  transition: border-radius 0.3s; /* Agrega una transición para suavizar el cambio */
+}
 
+/* Estilos para las imágenes con la clase 'rocorn' cuando se pasa el cursor sobre ellas */
+img.rocorn:hover {
+  border-radius: 15px 150px; /* Aplica el efecto de esquina redondeada cuando se pasa el cursor sobre la imagen */
+}
