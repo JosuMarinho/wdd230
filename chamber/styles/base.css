@@ -151,19 +151,27 @@ nav ul.open {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
 
 }
 
-.sidebar {
+aside {
   /* Estilos para la barra lateral */
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   background-color: #2b2d42;
-  color: #edf2f4;
+  color: #000;
   padding: 10px;
   margin: 0;
   width: 100%;
+}
+
+aside section {
+  margin-bottom: 50px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #edf2f4;
+  width: auto;
 }
 
 .image-container {
