@@ -183,7 +183,6 @@ aside .calendar {
   /* Estilos para contener las imágenes locales */
 display: grid;
 width: 100%;
-border-image: 10px;
 }
 
 .image-container img {
