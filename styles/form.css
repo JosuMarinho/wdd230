@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #2b2d42;
+    --secondary-color: #edf2f4;
+    --form-border-radius: 5px;
+}
+
+form {
+    background-color: var(--secondary-color);
+    border-radius: var(--form-border-radius);
+    padding: 40px;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--form-border-radius);
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(141, 153, 174, 0.4);
+}
+
+/* Estilos para el output del rango */
+output {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}

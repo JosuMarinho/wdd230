@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">     
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <header>
@@ -28,14 +29,38 @@
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="chamber/index.html">Chamber</a></li>
         <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="form.html" target="_blank">Form</a></li>
+        <li><a href="form.html" target=>Form</a></li>
     </ul>
 </nav> 
-   <h1>WDD 230: Web Frontend Development</h1>
+   <h1></h1>
 <div id="mode">
 	🕶️
 </div>
 <main>
+
+    <form action="record.html" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPassword(this)"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"><br><br>
+
+        <label for="pageRating">Page Rating:</label>
+        <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="ratingOutput.value = pageRating.value">
+        <output id="ratingOutput">5</output><br><br>
+
+        <button type="submit">Give us your opinion</button>
+    </form>
+
+
+
+
 
 </main>
  <footer>
