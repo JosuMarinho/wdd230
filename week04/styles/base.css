@@ -21,13 +21,13 @@ table {
 }
 
 caption {
-  padding: 10px;
+  padding: 30px;
   caption-side: bottom;
 	color: var(--back);
 	font-size: .85rem;
 }
 
-tr:first-child th, .highlight {
+tr:first-child th, .highlight, .white {
 	background-color: var(--back);
 	color: var(--forelight);
 }
