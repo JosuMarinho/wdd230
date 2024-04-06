@@ -216,3 +216,96 @@ img.rocorn {
 img.rocorn:hover {
   border-radius: 15px 150px; /* Aplica el efecto de esquina redondeada cuando se pasa el cursor sobre la imagen */
 }
+
+/* Estilos para el formulario */
+
+:root {
+  --primary-color: #2b2d42;
+  --secondary-color: #edf2f4;
+  --form-border-radius: 5px;
+}
+
+
+form {
+  background-color: var(--secondary-color);
+  border-radius: var(--form-border-radius);
+  padding: 40px;
+  border: 2px solid var(--primary-color);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #D90429;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #BF022D;
+}
+
+
+/* Estilos para el formulario */
+.form-container {
+  max-width: 600px;
+  margin-right: 20px; /* Espacio entre el formulario y los beneficios */
+}
+
+/* Estilos para los beneficios del nivel de membresía */
+.benefits-container {
+  flex-grow: 1; /* Para que ocupe el espacio restante */
+}
+
+.membership-level {
+  margin-bottom: 20px;
+}
+
+.membership-level h3 {
+  margin-bottom: 10px;
+}
+
+.membership-level ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.membership-level ul li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 768px) {
+  main {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .form-container {
+      width: calc(50% - 10px); /* El ancho es la mitad del contenedor menos el espacio entre columnas */
+  }
+
+  .benefits-container {
+      width: calc(50% - 10px); /* El ancho es la mitad del contenedor menos el espacio entre columnas */
+      margin-left: 20px; /* Espacio entre los beneficios y el formulario */
+  }
+}

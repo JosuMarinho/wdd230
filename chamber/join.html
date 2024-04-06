@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Celaya Chamber of Commerce</title>
+    <meta name="description" content="Join the Celaya Chamber of Commerce">
+    <meta name="author" content="Josu del Angel">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">     
+</head>
+<body>
+<header>
+    <img src="images/3c-logo.png" alt="3C logo" width="100" height="100"> 
+    <h1>Celaya Chamber of Commerce</h1>
+</header>
+    <button id="myButton" aria-label="open Navigation Menu"></button> 
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory">Directory</a></li>
+            <li class="active"><a href="join" target="_blank">Join</a></li>
+        </ul>
+    </nav> 
+
+<main>
+    <form action="thankyou.html" method="get">
+        <label for="fname">Applicant's First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        
+        <label for="lname">Applicant's Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        
+        <label for="position">Applicant's Title or Position:</label>
+        <input type="text" id="position" name="position" pattern="[A-Za-z\s\-]{7,}" required><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+        
+        <label for="phone">Mobile Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="organization">Business/Organization's Name:</label>
+        <input type="text" id="organization" name="organization" required><br><br>
+        
+        <label for="membership">Membership Level:</label>
+        <select id="membership" name="membership">
+            <option value="NP Membership">NP Membership (No Fee)</option>
+            <option value="Bronze Membership">Bronze Membership</option>
+            <option value="Silver Membership">Silver Membership</option>
+            <option value="Gold Membership">Gold Membership</option>
+        </select><br><br>
+        
+        <label for="description">Business/Organization's Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="hidden" id="timestamp" name="timestamp" value= "<?php echo date('Y-m-d H:i:s'); ?>">
+        
+        <input type="submit" value="Submit">
+
+        <div class="form-container">
+        </div>
+
+        <div class="benefits-container">
+            <h2>Membership Benefits</h2>
+            <div class="membership-level">
+                <h3>NP Membership</h3>
+                <ul>
+                    <li>No Fee</li>
+                    <li>Access to community events</li>
+                </ul>
+            </div>
+            <div class="membership-level">
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>Discounts on events</li>
+                    <li>Featured directory listing</li>
+                    <li>Access to traininng resources</li>
+                </ul>
+            </div>
+
+            <div class="membership-level">
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>Homepage advestising</li>
+                    <li>Exclusive access to VIP events</li>
+                    <li>Priority assistance</li>
+                </ul>
+            </div>
+
+            <div class="membership-level">
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>Event sponsorship</li>
+                    <li>Exclusive advertising in newsletters</li>
+                    <li>Priority listing in directory</li>
+                    <li>Access to mentoring programs</li>
+                </ul>
+            </div>
+    </form>
+</main>
+
+<footer>
+    <div class="social">
+        <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="fb icon" width="30" height="30">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter.png" alt="twitter icon" width="30" height="30">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="instagram icon" width="30" height="30">
+        </a>
+    </div>
+        <p> &copy; <span id="copyright-year">2024</span> <a>👨🏻‍💻 Josu del Angel 👨🏻‍💻 </a> <a>WWD230 👨🏻‍💻3C website</a></p>
+      <div id="lastModified"></div>
+ </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/hamburger.js"></script>
+</body>
+</html>
