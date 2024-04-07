@@ -212,3 +212,15 @@ section.hero{
     width: 100%;
     height: auto;
   }
+
+  .weather {
+    position: relative;
+    height: 200px;
+}
+
+#graphic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
