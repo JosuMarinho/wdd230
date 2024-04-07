@@ -29,11 +29,11 @@
 
 <main>
     <form action="thankyou.html" method="get">
-        <label for="fname">Applicant's First Name:</label>
+        
+        <label for="fname">Applicant's First Name*:</label>
         <input type="text" id="fname" name="fname" required><br><br>
         
-        
-        <label for="lname">Applicant's Last Name:</label>
+        <label for="lname">Applicant's Last Name*:</label>
         <input type="text" id="lname" name="lname" required><br><br>
         
         <label for="position">Applicant's Title or Position:</label>
@@ -43,23 +43,26 @@
         <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
         
         <label for="phone">Mobile Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="123456790"required><br><br>
         
         <label for="organization">Business/Organization's Name:</label>
         <input type="text" id="organization" name="organization" required><br><br>
         
-        <label for="membership">Membership Level:</label>
-        <select id="membership" name="membership">
-            <option value="NP Membership">NP Membership (No Fee)</option>
-            <option value="Bronze Membership">Bronze Membership</option>
-            <option value="Silver Membership">Silver Membership</option>
-            <option value="Gold Membership">Gold Membership</option>
-        </select><br><br>
-        
+        <fieldset>
+            <legend>Membership Details</legend>
+    
+        <label><input type="radio" name="membership-level" value="NP Membership">NP Membership </label>
+        <label><input type="radio" name="membership-level" value="Bronze Membership">Bronze Membership </label>
+        <label><input type="radio" name="membership-level" value="Silver Membership">Silver Membership </label>
+        <label><input type="radio" name="membership-level" value="Gold Membership">Gold Membership </label>
+        </fieldset>
+            
+        <div>
         <label for="description">Business/Organization's Description:</label><br>
         <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
         
         <input type="hidden" id="timestamp" name="timestamp" value= "<?php echo date('Y-m-d H:i:s'); ?>">
+        </div>
         
         <input type="submit" value="Submit">
 
@@ -71,35 +74,35 @@
             <div class="membership-level">
                 <h3>NP Membership</h3>
                 <ul>
-                    <li>No Fee</li>
-                    <li>Access to community events</li>
+                    <li>➤ No Fee</li>
+                    <li>➤ Access to community events</li>
                 </ul>
             </div>
             <div class="membership-level">
                 <h3>Bronze Membership</h3>
                 <ul>
-                    <li>Discounts on events</li>
-                    <li>Featured directory listing</li>
-                    <li>Access to traininng resources</li>
+                    <li>➤ Discounts on events</li>
+                    <li>➤ Featured directory listing</li>
+                    <li>➤ Access to traininng resources</li>
                 </ul>
             </div>
 
             <div class="membership-level">
                 <h3>Silver Membership</h3>
                 <ul>
-                    <li>Homepage advestising</li>
-                    <li>Exclusive access to VIP events</li>
-                    <li>Priority assistance</li>
+                    <li>➤ Homepage advestising</li>
+                    <li>➤ Exclusive access to VIP events</li>
+                    <li>➤ Priority assistance</li>
                 </ul>
             </div>
 
             <div class="membership-level">
                 <h3>Gold Membership</h3>
                 <ul>
-                    <li>Event sponsorship</li>
-                    <li>Exclusive advertising in newsletters</li>
-                    <li>Priority listing in directory</li>
-                    <li>Access to mentoring programs</li>
+                    <li>➤ Event sponsorship</li>
+                    <li>➤ Exclusive advertising in newsletters</li>
+                    <li>➤ Priority listing in directory</li>
+                    <li>➤ Access to mentoring programs</li>
                 </ul>
             </div>
     </form>
