@@ -311,7 +311,7 @@ form input[type="submit"]:hover {
 }
 
 .member-card-section {
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
   gap: 10px;
