@@ -3,7 +3,7 @@
 const mainGrindContainer = document.querySelector('.main-grind-container');
 
 const baseURL = "https://josumarinho.github.io/wdd230/";
-const linksURL = "data/links.json";
+const linksUrl = "data/links.json";
 
 const getLinks = async function() {
     const response = await fetch(linksUrl);
