@@ -1,0 +1,58 @@
+[
+  {
+    "name": "La Pastorcita S.A. de C.V.",
+    "address": "Main Avenue #123, Centro Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-123-4567",
+    "website": "www.lapastorcita.com.mx",
+    "membership_level": "Gold",
+    "other": "Company dedicated to the production and distribution of dairy and derivatives."
+  },
+  {
+    "name": "Joma S.A. de C.V.",
+    "address": "Reforma Street #456, Industrial Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-234-5678",
+    "website": "www.joma.com.mx",
+    "membership_level": "Silver",
+    "other": "Manufacturer of industrial products and machinery for agriculture."
+  },
+  {
+    "name": "Nevería Michoacán S.A. de C.V.",
+    "address": "Morelos Blvd. #789, Juárez Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-345-6789",
+    "website": "www.neveriamichoacan.com.mx",
+    "membership_level": "Bronze",
+    "other": "Company dedicated to the production and sale of ice creams and popsicles."
+  },
+  {
+    "name": "Refacciones Montes S.A. de C.V.",
+    "address": "Technological Avenue #101, Technological Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-456-7890",
+    "website": "www.refaccionesmontes.com.mx",
+    "membership_level": "Gold",
+    "other": "Distributor of automotive parts and maintenance services."
+  },
+  {
+    "name": "Nova Vita S.A. de C.V.",
+    "address": "Hidalgo Street #321, Centro Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-567-8901",
+    "website": "www.novavita.com.mx",
+    "membership_level": "Silver",
+    "other": "Health and wellness services company, focused on natural products and alternative therapies."
+  },
+  {
+    "name": "Félix S.A. de C.V.",
+    "address": "Revolución Avenue #543, Revolución Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-678-9012",
+    "website": "www.felix.com.mx",
+    "membership_level": "Bronze",
+    "other": "Technology company specialized in custom software solutions."
+  },
+  {
+    "name": "Servicios Irrigación S.A. de C.V.",
+    "address": "16 de Septiembre Street #234, Las Flores Neighborhood, Celaya, Guanajuato.",
+    "phone": "461-789-0123",
+    "website": "www.serviciosirrigacion.com.mx",
+    "membership_level": "Silver",
+    "other": "Company specialized in design, installation, and maintenance of agricultural and residential irrigation systems."
+  }
+]
