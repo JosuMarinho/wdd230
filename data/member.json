@@ -1,0 +1,67 @@
+
+
+[
+  {
+    "name": "ABC Solutions",
+    "address": "123 Main Street, Anytown, USA",
+    "phone_number": "+1 (555) 123-4567",
+    "website_url": "https://www.abcsolutions.com",
+    "image_icon_filename": "abc_logo.png",
+    "membership_level": "Gold",
+    "other_information": "Offers software development services."
+  },
+  {
+    "name": "XYZ Corporation",
+    "address": "456 Oak Avenue, Somewhereville, USA",
+    "phone_number": "+1 (555) 987-6543",
+    "website_url": "https://www.xyzcorp.com",
+    "image_icon_filename": "xyz_logo.jpg",
+    "membership_level": "Platinum",
+    "other_information": "Specializes in cloud computing solutions."
+  },
+  {
+    "name": "GreenTech Innovations",
+    "address": "789 Elm Street, Greenvale, USA",
+    "phone_number": "+1 (555) 456-7890",
+    "website_url": "https://www.greentechinnovations.com",
+    "image_icon_filename": "greentech_logo.png",
+    "membership_level": "Silver",
+    "other_information": "Leading provider of renewable energy solutions."
+  },
+  {
+    "name": "TechNex Solutions",
+    "address": "101 Pine Street, Techland, USA",
+    "phone_number": "+1 (555) 234-5678",
+    "website_url": "https://www.technexsolutions.com",
+    "image_icon_filename": "technex_logo.jpg",
+    "membership_level": "Gold",
+    "other_information": "Offers IT consulting and cybersecurity services."
+  },
+  {
+    "name": "MegaWidgets Inc.",
+    "address": "202 Maple Avenue, Widgetville, USA",
+    "phone_number": "+1 (555) 876-5432",
+    "website_url": "https://www.megawidgetsinc.com",
+    "image_icon_filename": "megawidgets_logo.png",
+    "membership_level": "Bronze",
+    "other_information": "Manufacturer of high-tech widgets and gadgets."
+  },
+  {
+    "name": "BlueWave Technologies",
+    "address": "303 Cedar Street, Blueville, USA",
+    "phone_number": "+1 (555) 345-6789",
+    "website_url": "https://www.bluewavetech.com",
+    "image_icon_filename": "bluewave_logo.jpg",
+    "membership_level": "Platinum",
+    "other_information": "Provides advanced data analytics solutions."
+  },
+  {
+    "name": "Global Logistics Solutions",
+    "address": "404 Walnut Street, Logistics City, USA",
+    "phone_number": "+1 (555) 654-3210",
+    "website_url": "https://www.globallogistics.com",
+    "image_icon_filename": "globallogistics_logo.png",
+    "membership_level": "Gold",
+    "other_information": "Offers comprehensive supply chain management services."
+  }
+]
